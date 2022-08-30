@@ -1,8 +1,3 @@
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .container .row {
   display: flex;
   justify-content: space-between;
@@ -14,15 +9,34 @@
   margin-bottom: 40px;
 }
 
-.container .row .col .card {
+.container .row .col a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.container .row .col a .card {
   text-transform: uppercase;
   font-size: 12px;
   width: 100px;
 }
 
-.container .row .col .card img {
+.container .row .col a .card img {
   display: block;
   width: 100px;
   padding-bottom: 10px;
+}
+
+.container .comic_info > * {
+  margin-bottom: 10px;
+}
+
+.container .comic_info > * span {
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 

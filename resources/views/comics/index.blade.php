@@ -11,11 +11,13 @@
         <div class="row">
             @foreach ($comics as $comic)
                 <div class="col">
-                    <div class="card">
-                        <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
-    
-                        <div>{{ $comic->series }}</div>
-                    </div>
+                    <a href="{{ route('comics.show', $comic->id) }}">
+                        <div class="card">
+                            <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
+        
+                            <div>{{ $comic->series }}</div>
+                        </div>
+                    </a>
                 </div>
             @endforeach
         </div>
