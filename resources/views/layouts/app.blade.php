@@ -24,6 +24,11 @@
                         Comics
                     </a>
                 </li>
+                <li>
+                    <a href="{{ route('comics.create') }}">
+                        New product
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>

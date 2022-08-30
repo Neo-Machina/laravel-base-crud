@@ -20,7 +20,7 @@
             </div>
 
             <div>
-                <span>Price:</span> {{ $comic->price }}
+                <span>Price:</span> {{ $comic->price }} $
             </div>
 
             <div>
