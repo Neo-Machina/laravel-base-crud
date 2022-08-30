@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .row .col {
+  width: calc(16.6666666667% - 20px);
+  margin-bottom: 40px;
+}
+
+.container .row .col .card {
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 100px;
+}
+
+.container .row .col .card img {
+  display: block;
+  width: 100px;
+  padding-bottom: 10px;
+}
+

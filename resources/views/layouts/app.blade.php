@@ -7,6 +7,8 @@
     <title>
         @yield('page_title')
     </title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    
 </head>
 <body>
     <header>
@@ -18,7 +20,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ route('comics.index') }}">
                         Comics
                     </a>
                 </li>
